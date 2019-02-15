@@ -106,7 +106,8 @@ public class MsgCenter {
 			} else {
 				LOG.info("Useless msg");
 			}
-			LOG.info("收到消息一条，来自: " + m.getString("FromUserName"));
+//			LOG.info("收到消息一条，来自: " + m.getString("FromUserName"));
+			LOG.info("收到消息一条，来自: " + m);
 			result.add(m);
 		}
 		return result;
