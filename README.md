@@ -2,15 +2,15 @@
 
  
 
-### 项目地址：[itchat4j](https://github.com/yaphone/itchat4j)，该项目长期维护更新，欢迎star、fork、 pull requests、 issue。
+### 项目地址：[itchat4j](Wang, Qing/itchat4j)，该项目长期维护更新，欢迎star、fork、 pull requests、 issue。
 
-## 示例项目程序[点击此处下载](https://github.com/yaphone/itchat4jdemo)。
+## 示例项目程序[点击此处下载](Wang, Qing/itchat4jdemo)。
 
 ### 来源
 
-[itchat](https://github.com/littlecodersh/ItChat)是一个非常优秀的开源微信个人号接口，使用Python语言开发，提供了简单易用的API，可以很方便地对个人微信号进行扩展，实现自动回复，微信挂机机器人等，一直在关注这个项目，基于itchat开发过[一个小项目](https://github.com/yaphone/RasWxNeteaseMusic)，用来控制我的树莓派来播放音乐，效果还不错。
+[itchat](https://github.com/littlecodersh/ItChat)是一个非常优秀的开源微信个人号接口，使用Python语言开发，提供了简单易用的API，可以很方便地对个人微信号进行扩展，实现自动回复，微信挂机机器人等，一直在关注这个项目，基于itchat开发过[一个小项目](Wang, Qing/RasWxNeteaseMusic)，用来控制我的树莓派来播放音乐，效果还不错。
 
-一直想实现一个java版本的itchat，由于工作太忙导致一拖再拖，这段时间稍微空闲了一些，仔细阅读了itchat的源码，终于完成了一个基础版本，由于主要灵感来源于itchat项目，所以这个项目的就暂时定名为[itchat4j](https://github.com/yaphone/itchat4j)吧。
+一直想实现一个java版本的itchat，由于工作太忙导致一拖再拖，这段时间稍微空闲了一些，仔细阅读了itchat的源码，终于完成了一个基础版本，由于主要灵感来源于itchat项目，所以这个项目的就暂时定名为[itchat4j](Wang, Qing/itchat4j)吧。
 
 
 
@@ -18,7 +18,7 @@
 
 > itchat是一个开源的微信个人号接口，使用Python调用微信从未如此简单。使用短短的几十行代码，你就可以完成一个能够处理所有信息的微信机器人。当然，itchat的使用远不止一个机器人，更多的功能等着你来发现，如今微信已经成为了个人社交的很大一部分，希望这个项目能够帮助你扩展你的个人的微信号、方便自己的生活。(引自itchat项目)
 
-你可以轻松将[itchat4j](https://github.com/yaphone/itchat4j)其集成在你个人的Java应用中，无论是SpringMVC、桌面程序还是嵌入式程序，只要使用的JDK是1.7以上的版本，都可以轻松接入。玩法很多，请打开你的脑洞，比如这些：
+你可以轻松将[itchat4j](Wang, Qing/itchat4j)其集成在你个人的Java应用中，无论是SpringMVC、桌面程序还是嵌入式程序，只要使用的JDK是1.7以上的版本，都可以轻松接入。玩法很多，请打开你的脑洞，比如这些：
 
 - Just for fun，把个人微信号扩展为"公众号"，在朋友面前装个X吧。
 - 集成在你的个人应用（SpringMVC、Servlet、GUI）中，为应用提供更强的服务能力。
@@ -207,7 +207,7 @@ src/main/java是itchat4j的项目源码，在src/test/java目录下有两个小D
 /**
  * 收到的微信消息
  * 
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年7月3日 下午10:28:06
  * @version 1.0
  *
@@ -270,7 +270,7 @@ public class BaseMsg implements Serializable {
 
 *项目不断更新中，教程仅供参考*
 
-接下来，通过两个小Demo来演示一下如何使用itchat4j来扩展你的个人微信号，入门教程的项目源码可以从[此处下载](https://github.com/yaphone/itchat4jdemo)。以下几个demo在项目的`src/test/java`路径下可以找到，项目不断更新，请以实际代码为准。
+接下来，通过两个小Demo来演示一下如何使用itchat4j来扩展你的个人微信号，入门教程的项目源码可以从[此处下载](Wang, Qing/itchat4jdemo)。以下几个demo在项目的`src/test/java`路径下可以找到，项目不断更新，请以实际代码为准。
 
 ### Demo1: SimpleDemo
 
@@ -286,7 +286,7 @@ import cn.zhouyafeng.itchat4j.beans.BaseMsg;
 /**
  * 消息处理接口
  * 
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年4月20日 上午12:13:49
  * @version 1.0
  *
@@ -294,7 +294,7 @@ import cn.zhouyafeng.itchat4j.beans.BaseMsg;
 public interface IMsgHandlerFace {
 	/**
 	 * 
-	 * @author https://github.com/yaphone
+	 * @author Wang, Qing
 	 * @date 2017年4月20日 上午12:15:00
 	 * @param msg
 	 * @return
@@ -304,7 +304,7 @@ public interface IMsgHandlerFace {
 	/**
 	 * 处理图片消息
 	 * 
-	 * @author https://github.com/yaphone
+	 * @author Wang, Qing
 	 * @date 2017年4月21日 下午11:07:06
 	 * @param msg
 	 * @return
@@ -314,7 +314,7 @@ public interface IMsgHandlerFace {
 	/**
 	 * 处理声音消息
 	 * 
-	 * @author https://github.com/yaphone
+	 * @author Wang, Qing
 	 * @date 2017年4月22日 上午12:09:44
 	 * @param msg
 	 * @return
@@ -324,7 +324,7 @@ public interface IMsgHandlerFace {
 	/**
 	 * 处理小视频消息
 	 * 
-	 * @author https://github.com/yaphone
+	 * @author Wang, Qing
 	 * @date 2017年4月23日 下午12:19:50
 	 * @param msg
 	 * @return
@@ -334,7 +334,7 @@ public interface IMsgHandlerFace {
 	/**
 	 * 处理名片消息
 	 * 
-	 * @author https://github.com/yaphone
+	 * @author Wang, Qing
 	 * @date 2017年5月1日 上午12:50:50
 	 * @param msg
 	 * @return
@@ -401,7 +401,7 @@ import cn.zhouyafeng.itchat4j.utils.tools.DownloadTools;
 /**
  * 简单示例程序，收到文本信息自动回复原信息，收到图片、语音、小视频后根据路径自动保存
  * 
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年4月25日 上午12:18:09
  * @version 1.0
  *
@@ -492,7 +492,7 @@ public class SimpleDemo implements IMsgHandlerFace {
 
 /**
  *
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年4月28日 上午12:44:10
  * @version 1.0
  *
@@ -539,7 +539,7 @@ import cn.zhouyafeng.itchat4j.utils.tools.DownloadTools;
 /**
  * 图灵机器人示例
  * 
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年4月24日 上午12:13:26
  * @version 1.0
  *
@@ -658,7 +658,7 @@ import cn.zhouyafeng.itchat4j.utils.enums.StorageLoginInfoEnum;
 /**
  * 此示例演示如何获取所有好友的头像
  * 
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年6月26日 下午11:27:46
  * @version 1.0
  *
@@ -776,7 +776,7 @@ public class PicYourFriends implements IMsgHandlerFace {
 /**
  * Wechat服务实现类
  * 
- * @author https://github.com/yaphone
+ * @author Wang, Qing
  * @date 创建时间：2017年4月29日 下午7:44:01
  * @version 1.0
  *
@@ -816,7 +816,7 @@ itchat4j开源后，收到很多朋友的建议，对ithcat4j改进做出了很�
 
 @QQ群好友（beyond_12345@126.com）
 
-以及[每位PR的朋友](https://github.com/yaphone/itchat4j/graphs/contributors)！
+以及[每位PR的朋友](Wang, Qing/itchat4j/graphs/contributors)！
 
 ## 问题和建议
 
